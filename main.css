@@ -1,0 +1,79 @@
+body {
+    padding: 25px;
+    background-color: #fafafa;
+    color: #222222;
+    font-size: 25px;
+  }
+  
+  .dark-mode {
+    background-color: #222222;
+    color: #fafafa;
+  }
+
+a{
+    color: #04AA6d;
+    text-decoration: underline;
+
+    &:hover{
+        color: #04AA6d;
+    }
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fafafa;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: #222222;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #04AA6d;
+    color: white;
+}
+
+.button {
+    background-color: #04AA6d; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button1 {
+    background-color: #04AA6d; 
+    color: #222222; 
+    border: 2px solid #04AA6d;
+  }
+  .button1:hover {
+    background-color: #04AA6d;
+    color: white;
+  }
+
+.foot {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
